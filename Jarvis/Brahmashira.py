@@ -13,7 +13,7 @@ with open("intents.json", 'r') as json_data:
 FILE = "TrainData.pth"
 data = torch.load(FILE)
 
-input_size1 = data["input_size"]
+input_size = data["input_size"]
 hidden_size = data["hidden_size"]
 output_size = data["output_size"]
 all_words = data["all_words"]
